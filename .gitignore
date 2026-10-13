@@ -1,0 +1,29 @@
+# Operating-system artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependency caches and generated output
+node_modules/
+.cache/
+/dist/
+/build/
+/coverage/
+/_site/
+*.log
